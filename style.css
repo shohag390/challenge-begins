@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", serif;
+}
+
+/* hero section here */
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background: #fff;
+}
+
+.navbar h4 {
+    font-size: 25px;
+}
+
+.parymary-btn {
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #cacaca;
+    border-radius: 5px;
+    color: #606060;
+    font-size: 17px;
+}
+
+.banner {
+    height: 88vh;
+    width: 100%;
+    background-image: url("./assets/Hero-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_content {
+    width: 50%;
+    text-align: center;
+}
+
+.banner_content img {
+    height: 150px;
+}
+
+.banner_content h2 {
+    font-size: 35px;
+    padding: 15px 0px;
+}
+
+.banner_content p {
+    padding-bottom: 30px;
+    color: #454545;
+}
+
+.secoundery-btn {
+    padding: 15px 25px;
+    background: #000000;
+    border-radius: 5px;
+    color: #35a1ff;
+    font-size: 17px;
+    border: none;
+}
+
+/* Hero Section Close  */
+
+/* Development Section Here */
+.development {
+    padding: 50px 100px 15px 100px;
+}
+
+.section_heading {
+    text-align: center;
+    width: 50%;
+    font-size: 28px;
+    margin: 0 auto;
+    padding: 50px 0px 8px 0px;
+}
+
+.section_paragraph {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: #606060;
+}
+
+.development-contaniar {
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+
+.development-card-contaniar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 100px 80px 100px;
+}
+
+.development-card-one {
+    background: linear-gradient(to left, #f2f2f2, white);
+    border-radius: 8px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.development-card-two {
+    background: linear-gradient(to right, #f2f2f2, white);
+    border-radius: 8px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.development-card-three {
+    background: linear-gradient(to left, #f2f2f2, white);
+    border-radius: 8px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.development-image {
+    height: 250px;
+    width: 250px;
+}
+
+.development-card-head {
+    font-size: 24px;
+    color: #606060;
+    width: 65%;
+    line-height: 32px;
+}
+
+.development-card-para {
+    color: #606060;
+    padding: 5px 0px 15px 0px;
+    width: 85%;
+    line-height: 23px;
+}
+
+/* Development Section Close */
+
+/* inspiration Section Here */
+
+.inspiration {
+    padding: 20px 100px 0px 100px;
+}
+
+.video-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-wraper {
+    width: 785px;
+    height: 465px;
+    border: 1px solid #606060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* inspiration Section Close */
+
+/* Target Section Here   */
+
+.target {
+    padding: 40px 100px;
+}
+
+.next-card-contanear {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.next-card {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.next-heading {
+    font-size: 22px;
+    padding: 6px 0px;
+
+}
+
+.next-paragraph {
+    color: #606060;
+    line-height: 22px;
+    padding-bottom: 16px;
+}
+
+/* Target Section Close  */
+
+/* Next Target Section Hear */
+
+.next_target {
+    padding: 0px 100px;
+}
+
+.nextTarget-card-contanear {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.nextTarget-card {
+    height: 200px;
+    width: 100%;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.next-target-left {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-target-right {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.heading {
+    font-size: 22px;
+
+}
+
+.paragraph {
+    color: #606060;
+    line-height: 22px;
+    padding-top: 15px;
+}
+
+.link-next-target {
+    font-weight: bold;
+    color: #606060;
+    padding-top: 20px;
+}
+
+/* Next Target Section Close */
+
+
+
+/* Support Section Here */
+
+.support {
+    padding: 60px 100px;
+}
+
+.support-content {
+    height: 280px;
+    width: 100%;
+    background: radial-gradient(#00000029, #000000b7), url("./assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support_paragraph {
+    text-align: center;
+    width: 45%;
+    color: #606060;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.support_heading {
+    text-align: center;
+    width: 50%;
+    font-size: 28px;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+input {
+    width: 400px;
+    padding: 14px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.btn {
+    background: #fff;
+    padding: 14px 35px;
+    border-radius: 5px;
+    color: #606060;
+    font-size: 17px;
+    border: none;
+    font-size: 17px;
+}
+
+/* Support Section Close */
+
+/* Footer Section Here */
+.footer {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.footer p {
+    font-weight: bold;
+    color: #606060;
+}
+
+.social_link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social_link img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* Footer Section Close */
